@@ -1,0 +1,39 @@
+
+.header-container {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: -12px;
+}
+
+
+.hospital-text{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #0c0c0c;
+    padding: 20px 2px;
+    transform: translate(-20px);
+    margin-bottom: -502px;
+}
+  
+  .login-text {
+    font-size: 46px;
+    font-weight: 800;
+    padding: 10px 2px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff; 
+    /* margin: 0px 12px; */
+  }
+
+
+  @media screen and (max-width: 563px) and (max-height: 768px) {
+    
+    .login-text {
+        color: rgb(0, 0, 0);
+    }
+}
+ 
+
+

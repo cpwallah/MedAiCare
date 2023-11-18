@@ -1,0 +1,18 @@
+.imgSize{
+    margin-top: 100px;
+    margin-left: 40px;
+    height: 0%;
+    width: 0%;
+}
+.input-field {
+    border: 1px solid gray;
+    outline-color: gray;
+}
+.input-field::placeholder {
+    text-indent: 13px;
+}
+/* Style.css */
+
+.bg-custom {
+    background-color: #0000FF;
+}

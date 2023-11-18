@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .common-heading {
+      /* font-family: 'Lato', sans-serif; */
+    font-weight: bold !important;
+    font-size: 2rem;
+  }
+  
+  .container {
+    margin-top: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+
+  .contact-form {
+    max-width: 50rem;
+    margin: auto;
+    margin-bottom: 34px;
+  }
+  
+  .text-field-wrapper {
+    margin-bottom: 16px; /* Adjust the margin to control spacing between text fields */
+  }
+  
+  .contact-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-inputs input[type="submit"] {
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 10px; /* Adjust the padding as needed */
+    border: 1px solid black;
+  }
+  
+  .contact-inputs input[type="submit"]:hover {
+    /* Styles for the submit button on hover */
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    transform: scale(0.9);
+  }
+  
+  /* "Go to Top" button styles */
+  .go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .go-to-top-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+

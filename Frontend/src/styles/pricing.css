@@ -1,0 +1,71 @@
+/* Define the CSS styles for the pricing components */
+
+.pricing-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.pricing-heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricing {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.pricing-cards{
+    display: flex;
+    gap: 2rem;
+    align-items: top;
+    padding-bottom: 30px;
+    
+}
+.pricing-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pricing-card-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.pricing-card-description {
+  font-size: 16px;
+}
+
+.pricing-card-price {
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+.pricing-card-features {
+  list-style-type: none;
+}
+
+.pricing-card-features li {
+  margin: 10px;
+}
+
+.buy-now-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buton:hover{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,103 @@
+.image-container {
+  height: 70vw; /* change this from vh to vw */
+  width: 100vw; /* this element will take the full width of the viewport on all devices */
+}
+
+.image-container img {
+  height: 100%; /* by setting the height of the images to 100%, they adapt to the height of their extra div containers */
+  width: 100%; /* having the width of the images set to 100% allows them to adapt to the width of their container */
+  object-fit: cover;
+  object-position: center; 
+}
+  button:focus {
+    outline: none;
+    box-shadow: none;
+    
+  }
+  @media (max-width: 648px) {
+    .center-icons {
+      flex-direction: row;
+    }
+  }
+  @media (max-width: 648px) {
+    /* Other styles */
+    .bottom-circle-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    
+    .bottom-circle-container > div {
+      width: 5px;
+      height: 5px;
+    } 
+  }
+  @media (max-width: 468px) { /* adjust this according to your needs */
+    .image-container {
+      height: 60px; 
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .hide-on-small {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 547px) {
+    .arrow-buttons {
+      transform: translateY(-15px); 
+    }
+  }
+  @media screen and (max-height: 547px) {
+    .arrow-buttons {
+      transform: translateY(-15px); 
+    }
+  }
+  @media screen and (max-width: 487px) {
+    .arrow-buttons {
+      transform: translateY(-30px);
+    }
+  }
+  @media screen and (max-width: 296px) {
+    .arrow-buttons {
+      transform: translateY(-50px); 
+    }
+  }
+  @media screen and (max-height: 487px) {
+    .arrow-buttons {
+      transform: translateY(-30px);
+    }
+  }
+  @media screen and (max-height: 296px) {
+    .arrow-buttons {
+      transform: translateY(-50px); 
+    }
+  }
+  @media (max-width: 768px) { 
+    .image-container {
+      display: none; 
+    }
+  }
+
+
+  input[type="file"] {
+    background-color: rgb(125, 204, 231);
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: green;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 20%;
+    color: white;
+  }
+  

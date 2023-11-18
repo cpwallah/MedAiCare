@@ -1,0 +1,73 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px 0; /* Add some padding to the top and bottom */
+    width: 100%; /* Ensure it takes the full width */
+    bottom: 0; /* Position it at the bottom of the viewport */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left h3,
+  .footer-center h3,
+  .footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 28px;
+  }
+  
+  
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin: 5px 0;
+    background-color: transparent; /* Make form inputs transparent */
+    color: #fff; /* Set text color to white */
+    border-bottom: 1px solid #fff; /* Add white underline */
+  }
+  
+  .subscribe-form button {
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-terms a {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-terms a:hover {
+    text-decoration: underline;
+  }
+  
